@@ -23,7 +23,7 @@ pipeline {
 
                 withSonarQubeEnv('EM-sonar-srv') {
                     script {
-                        def scannerHome = tool 'sonarqube-scanner'
+                        def scannerHome = tool 'EM-sonarscanner'
 
                         sh """
                         ${scannerHome}/bin/sonar-scanner \
