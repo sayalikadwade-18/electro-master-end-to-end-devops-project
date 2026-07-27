@@ -60,7 +60,7 @@ pipeline {
                         docker build -t mywebsite .
 
                         docker run -d \
-                            --name electro-master1 \
+                            --name electro-master2 \
                             -p 8086:80 \
                             mywebsite
 
