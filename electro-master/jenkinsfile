@@ -4,7 +4,7 @@ pipeline {
 
     environment {
         SONAR_PROJECT_KEY = "electro-master"
-        REMOTE_HOST = "ubuntu@15.206.209.130"
+        REMOTE_HOST = "ubuntu@43.204.143.201"
     }
 
     stages {
